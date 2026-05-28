@@ -2,7 +2,7 @@
 
 个人作品集网站，整合代码项目、写作内容与社交媒体入口。基于 React + TypeScript + Vite + Tailwind CSS 构建，支持暗色模式。
 
-**线上地址**：[hezhiyuan.me](https://hezhiyuan.me)
+**线上地址**：[hezhiyuan.vercel.app](https://hezhiyuan.vercel.app)
 
 ---
 
