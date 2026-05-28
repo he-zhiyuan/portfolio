@@ -3,18 +3,18 @@ import type { SkillCategory } from '../types'
 export const skillCategories: SkillCategory[] = [
   {
     category: '编程语言',
-    skills: ['TypeScript', 'JavaScript', 'Python', 'Go'],
+    skills: ['TypeScript', 'JavaScript', 'Python'],
   },
   {
     category: '前端框架',
-    skills: ['React', 'Vue 3', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+    skills: ['React', 'Vue 3', 'Vite', 'Tailwind CSS', 'Framer Motion'],
   },
   {
     category: '后端 & 数据库',
-    skills: ['Node.js', 'FastAPI', 'Gin', 'PostgreSQL', 'Redis', 'Docker'],
+    skills: ['Node.js', 'Express.js', 'Prisma', 'SQLite', 'Socket.IO'],
   },
   {
     category: '工具 & 平台',
-    skills: ['Git', 'GitHub Actions', 'Vercel', 'Linux', 'Vite', 'Figma'],
+    skills: ['Git', 'Cloudflare Pages', 'VitePress', 'AI APIs', 'Cursor'],
   },
 ]

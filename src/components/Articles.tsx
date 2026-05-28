@@ -14,11 +14,12 @@ const cardVariants = {
 }
 
 const platformConfig: Record<Article['platform'], { label: string; bg: string; text: string }> = {
-  juejin:      { label: '掘金',     bg: 'bg-blue-100 dark:bg-blue-900/40',   text: 'text-blue-600 dark:text-blue-400' },
-  zhihu:       { label: '知乎',     bg: 'bg-sky-100 dark:bg-sky-900/40',     text: 'text-sky-600 dark:text-sky-400' },
-  wechat:      { label: '公众号',   bg: 'bg-green-100 dark:bg-green-900/40', text: 'text-green-600 dark:text-green-400' },
-  weibo:       { label: '微博',     bg: 'bg-red-100 dark:bg-red-900/40',     text: 'text-red-600 dark:text-red-400' },
-  xiaohongshu: { label: '小红书',   bg: 'bg-rose-100 dark:bg-rose-900/40',   text: 'text-rose-600 dark:text-rose-400' },
+  juejin:      { label: '掘金',   bg: 'bg-blue-100 dark:bg-blue-900/40',    text: 'text-blue-600 dark:text-blue-400' },
+  zhihu:       { label: '知乎',   bg: 'bg-sky-100 dark:bg-sky-900/40',      text: 'text-sky-600 dark:text-sky-400' },
+  wechat:      { label: '公众号', bg: 'bg-green-100 dark:bg-green-900/40',  text: 'text-green-600 dark:text-green-400' },
+  weibo:       { label: '微博',   bg: 'bg-red-100 dark:bg-red-900/40',      text: 'text-red-600 dark:text-red-400' },
+  xiaohongshu: { label: '小红书', bg: 'bg-rose-100 dark:bg-rose-900/40',    text: 'text-rose-600 dark:text-rose-400' },
+  douban:      { label: '豆瓣',   bg: 'bg-lime-100 dark:bg-lime-900/40',    text: 'text-lime-700 dark:text-lime-400' },
 }
 
 function formatNumber(n: number) {

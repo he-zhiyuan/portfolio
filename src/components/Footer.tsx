@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <p className="text-sm text-gray-400 dark:text-gray-500">
-            © {year} 你的名字. All rights reserved.
+            © {year} 何致远. All rights reserved.
           </p>
 
           <nav aria-label="页脚导航" className="flex flex-wrap justify-center gap-x-6 gap-y-2">

@@ -13,7 +13,7 @@ export interface Article {
   id: string;
   title: string;
   summary: string;
-  platform: 'juejin' | 'zhihu' | 'wechat' | 'weibo' | 'xiaohongshu';
+  platform: 'juejin' | 'zhihu' | 'wechat' | 'weibo' | 'xiaohongshu' | 'douban';
   url: string;
   publishedAt: string;
   views?: number;

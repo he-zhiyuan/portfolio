@@ -27,7 +27,7 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
           href="#"
           className="text-lg font-bold text-accent-600 dark:text-accent-400 hover:opacity-80 transition-opacity"
         >
-          你的名字
+          何致远
         </a>
 
         <div className="hidden md:flex items-center gap-6">

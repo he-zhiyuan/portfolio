@@ -27,7 +27,7 @@ export default function Contact() {
         </motion.div>
 
         <motion.a
-          href="mailto:your@email.com"
+          href="mailto:hezhiyuan@tuta.io"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -35,7 +35,7 @@ export default function Contact() {
           className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-accent-600 hover:bg-accent-700 active:bg-accent-800 text-white font-medium text-lg transition-colors shadow-md hover:shadow-lg mb-12"
         >
           <Mail size={20} />
-          your@email.com
+          hezhiyuan@tuta.io
         </motion.a>
 
         <motion.div

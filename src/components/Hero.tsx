@@ -22,9 +22,11 @@ export default function Hero() {
           variants={fadeUp(0)}
           className="mb-8 flex justify-center"
         >
-          <div className="w-28 h-28 rounded-full bg-gradient-to-br from-accent-400 to-accent-700 flex items-center justify-center text-white text-4xl font-bold shadow-xl ring-4 ring-accent-100 dark:ring-accent-900">
-            你
-          </div>
+          <img
+            src="/favicon.png"
+            alt="何致远"
+            className="w-28 h-28 rounded-full object-cover shadow-xl ring-4 ring-accent-100 dark:ring-accent-900"
+          />
         </motion.div>
 
         <motion.h1
@@ -33,7 +35,7 @@ export default function Hero() {
           variants={fadeUp(0.1)}
           className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4"
         >
-          你的名字
+          何致远
         </motion.h1>
 
         <motion.p
@@ -42,7 +44,7 @@ export default function Hero() {
           variants={fadeUp(0.2)}
           className="text-lg sm:text-xl text-accent-600 dark:text-accent-400 font-medium mb-5"
         >
-          开发者 · 写作者
+          开发者 · 写作者 · 长期主义者
         </motion.p>
 
         <motion.p
@@ -51,7 +53,7 @@ export default function Hero() {
           variants={fadeUp(0.3)}
           className="text-base sm:text-lg text-gray-500 dark:text-gray-400 mb-10 max-w-xl mx-auto leading-relaxed"
         >
-          用代码构建产品，用文字传递思考。分享技术经验与独立见解。
+          用代码构建产品，用文字传递思考。关注科技互联网、AI 与跨学科阅读写作。
         </motion.p>
 
         <motion.div
