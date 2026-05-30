@@ -25,7 +25,7 @@ export const socialLinks: SocialLink[] = [
   {
     platform: '微信公众号',
     icon: 'wechat',
-    url: 'https://hezhiyuan.me',
+    url: 'https://hezhiyuan.vercel.app/',
     handle: '何致远',
     color: '#07c160',
   },
