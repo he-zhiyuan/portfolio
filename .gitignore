@@ -17,6 +17,7 @@ npm-debug.log*
 # editor
 .vscode/
 .idea/
+*.code-workspace
 *.suo
 *.ntvs*
 *.njsproj
